@@ -1,0 +1,214 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2rem;
+  }
+  /* setting div.row padding and margin to zero must be atthe topifnot it wont work */
+  div.row{
+    margin: 0;
+    padding: 0;
+  }
+  
+  div{
+    margin: 0 ;
+    padding: 0 ;
+  }
+  
+  
+  
+  .text-input{
+    padding: 0.6rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #e4cdcd;
+    font-size: 1.2em;
+    color: #444;
+    line-height: 1.5rem;
+    font-family: "ubuntu", sans-serif, serif, cursive;
+    margin: 5px 5px 0 0;
+  }
+   direct below from secrets
+  .centered {
+    padding-top: 200px;
+    text-align: center;
+  }
+ 
+  h1, h2, h3 {
+    font-family: "Montserrat-Black", sans-serif;
+  }
+  
+  /* navbar section */
+  .navbar{
+    background-color: rgb(0, 48, 91);
+    font-family: "source-sans-pro",Arial,Helvetica,sans-serif;
+  }
+  .sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+  }
+
+  
+  .dropdown-menu li a{
+    color: white;
+    padding-left: 2rem;
+  }
+  .dropdown-menu li a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a.navbar-a-tags{
+    color: rgb(230, 218, 218);
+    font-weight: bold;
+    text-decoration:none ;
+    display: block;
+  }
+  
+  a.navbar-a-tags:hover{
+    color: gold;
+  
+  }
+ 
+  
+  .navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  a.active{
+    color: #fff;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+  
+  }
+  .navbar-a-tags{
+    color: white;
+    padding: 0;
+    margin: 1em 1em 0 0;
+  }
+  
+  #icons:hover{
+    color: #fff;
+  }
+  
+  a.become-a-customer-navlink{
+    color: rgb(255, 208, 0);
+  
+  }
+  
+  li a.become-a-customer-navlink{
+    width: 100%;
+    margin-left: 10%;
+  }
+  
+  /* div card section */
+  .card img:hover{
+    width: 102%;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+  /* what we do section */
+  #what-we-do-highlights p{
+    text-align: left;
+  }
+  #what-we-do-highlights p span{
+    font-weight: bold;
+  }
+  #what-we-do-highlights h4{
+    font-weight: bold;
+    text-align: left;
+
+  }
+  .business-representstion-p{
+    padding-left: 2rem;
+  }
+
+  /* container corporate-business-law */
+  .corporate-business-law p{
+  padding-left: 2rem;
+  }
+  .corporate-business-second-div p{
+    padding-left: 2rem;
+    width: 80%;
+  }
+
+  div.footer-bottom{  
+    color: #d3d3d3;
+    bottom: 0;
+    padding: 3% 5%;
+    text-align: center ;
+  }
+  
+  
+    @media only screen and (max-width: 970px) {
+      #loan-percent-calculate{
+        margin-left: 0%;
+      }
+  
+      .navbar-brand {
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 0;
+      }
+  
+      .nav-item {
+        padding: 0;
+        /* color: yellow; */
+      }
+  
+  
+        .col-md-4{
+        margin-bottom: 0;
+        /* margin-left: 2.5%; */
+      }   
+    
+  
+    @media only screen and (max-width: 767px){
+ 
+      p{
+        font-size: 1.2rem;
+      }
+
+      li{
+        margin: 0.6rem;
+      }
+ 
+ 
+      }
+      .nav-link {
+        font-size: 0.9rem;
+      }
+
+  }
+  
+  @media only screen and (max-width: 360px){
+  
+
+     }     
+       
+  
+       @media only screen and (max-width: 266px){
+        .money-bag-in-hand{
+          margin-top: 0;
+           margin-left: 6rem;
+        }
+        .nav-item {
+         margin-top: 1.5rem;
+        }
+       
+      }
