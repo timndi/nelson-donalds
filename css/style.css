@@ -179,6 +179,17 @@ body {
     
   
     @media only screen and (max-width: 767px){
+      .home-img{
+        width: 40%;
+        margin-bottom: 1rem;
+      }
+      #what-we-do-highlights{
+        padding: 1rem;
+      }
+      #your-legal-business{
+        padding: 1rem;
+      }
+
  
       p{
         font-size: 1.2rem;
